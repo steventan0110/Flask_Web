@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Steven Tan's Website</title>
+
+    <link rel="shortcut icon" href="{{ url_for('static', filename='images/eye.png') }}">
+
+  <!-- Bootstrap core CSS -->
+  <link href="{{ url_for('static', filename='vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+  <link href="{{ url_for('static', filename='vendor/fontawesome-free/css/all.min.css') }}" rel="stylesheet">
+
+
+  <!-- Custom styles for this template -->
+  <link href="{{ url_for('static', filename='styles/resume.min.css') }}" rel="stylesheet">
+
+
+</head>
+
+<body id="page-top">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+      <span class="d-block d-lg-none">Steven Tan</span>
+      <span class="d-none d-lg-block">
+        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="{{ url_for('static', filename='images/profile.png') }}" alt="">
+      </span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container-fluid p-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
+      <div class="w-100">
+        <h1 class="mb-0">Steven
+          <span class="text-primary">Tan</span>
+        </h1>
+        <div class="subheading mb-5">3400 N Charles ST · Baltimore · (443)4402950 ·
+          <a href="mailto:name@email.com">wtan12@jhu.edu</a>
+        </div>
+        <p class="lead mb-5">I'm majoring Computer Science and Applied Mathematics & Statistics at Johns Hopkins University.
+        Had experience developing both frontend and backend for web applications. Actively seeking software development internships</p>
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/weiting-steven-tan-30bb4a175/">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://github.com/steventan0110">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.facebook.com/profile.php?id=100009422499217">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
+      <div class="w-100">
+        <h2 class="mb-5">Experience</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Data Structure Course Assistant</h3>
+            <div class="subheading mb-3">Java, Gradescope</div>
+            <p>•    Responsible for hosting office hour, grading homework, and in-class help</p>
+              <p>•  During winter 2020, revamped course structure with course instructor</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">August 2019 - Now</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Research Assistant for Professor Emad Boctor</h3>
+            <div class="subheading mb-3">MATLAB, Python</div>
+            <p>•	Implemented ultrasound simulation based on K-wave toolbox with different bone structure as medium</p>
+              <p>•	Generated training data to detect the contour of bone structure to perform lumbar puncture</p>
+              <p>•	Awarded the Williams Huggins Fellowship (ECE department summer research fellowship)</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">May 2019 – Dec 2019</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Research Assistant for Professor Jerry L. Prince</h3>
+            <div class="subheading mb-3">Python</div>
+            <p>•	Delineated and analyzed retinal layer segmentation of Optical Coherence Tomography (OCT) image</p>
+              <p>•	Preprocessed OCT image: detected the retina boundary, normalized the OCT image, and flattened the image using Gaussian/Sobel filter and image inpainting</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">May 2019 – July 2019</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+          <div class="resume-content">
+            <h3 class="mb-0">Web developer for GEZIWEN Chengdu Daily</h3>
+            <div class="subheading mb-3">Shout! Media Productions</div>
+            <p>•	Built a web application that helps international students from China connect with local tutoring and advising services during their college application processes</p>
+              <a href="https://geziwen.com/">Visit Our Website</a>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">January 2018 -August 2018</span>
+          </div>
+        </div>
+
+
+
+      </div>
+
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
+      <div class="w-100">
+        <h2 class="mb-5">Education</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Johns Hopkins University</h3>
+            <div class="subheading mb-3">Bachelor of Science</div>
+            <div>Computer Science, Applied Mathematics & Statistics</div>
+            <p>GPA: 3.95</p>
+              <p>Relevant Courses: Data Structure, Intro Algorithms, Databases, Computer System Fundamentals</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">Fall 2018 - Now</span>
+          </div>
+        </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Chengdu Foreign Languages School</h3>
+              <div class="subheading mb-3">College Entrance Exam Science Track</div>
+              <p>TOP 5% of the grade</p>
+          </div>
+
+          <div class="resume-date text-md-right">
+            <span class="text-primary">Fall 2015 - May 2018</span>
+          </div>
+        </div>
+
+
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
+      <div class="w-100">
+        <h2 class="mb-5">Skills</h2>
+
+        <div class="subheading mb-3">Programming Languages &amp; Tools</div>
+        <ul class="list-inline dev-icons">
+            <li class="list-inline-item">
+                <i class="fab fa-python"></i>
+            </li>
+            <li class="list-inline-item">
+                <i class="fab fa-java"></i>
+            </li>
+          <li class="list-inline-item">
+            <i class="fab fa-html5"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-css3-alt"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-js-square"></i>
+          </li>
+{#          <li class="list-inline-item">#}
+{#            <i class="fab fa-angular"></i>#}
+{#          </li>#}
+{#          <li class="list-inline-item">#}
+{#            <i class="fab fa-react"></i>#}
+{#          </li>#}
+{#          <li class="list-inline-item">#}
+{#            <i class="fab fa-node-js"></i>#}
+{#          </li>#}
+{#          <li class="list-inline-item">#}
+{#            <i class="fab fa-sass"></i>#}
+{#          </li>#}
+{#          <li class="list-inline-item">#}
+{#            <i class="fab fa-less"></i>#}
+{#          </li>#}
+          <li class="list-inline-item">
+            <i class="fab fa-wordpress"></i>
+          </li>
+            <li class="list-inline-item">
+                <i class="fab fa-php"></i>
+            </li>
+            <li class="list-inline-item">
+                <i class="fab fa-laravel"></i>
+            </li>
+            <li class="list-inline-item">
+                <i class="fab fa-flask"></i>
+            </li>
+{#          <li class="list-inline-item">#}
+{#            <i class="fab fa-gulp"></i>#}
+{#          </li>#}
+{#          <li class="list-inline-item">#}
+{#            <i class="fab fa-grunt"></i>#}
+{#          </li>#}
+          <li class="list-inline-item">
+            <i class="fab fa-npm"></i>
+          </li>
+        </ul>
+
+        <div class="subheading mb-3">Web Development Framework</div>
+        <ul class="fa-ul mb-0">
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Flask + Vue</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Java Servlet + Java Database Connector + Frontend</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Laravel + Vue</li>
+        </ul>
+          <div class="subheading mb-3">Languages:</div>
+          <p>Chinese (Native)</p>
+          <p>English (Professional)</p>
+          <p>Spanish (Beginner)</p>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
+      <div class="w-100">
+        <h2 class="mb-5">Interests</h2>
+        <p>I enjoy most of my time being outdoors. In the winter, I am an avid skier. During the warmer months, I love hiking and swimming.</p>
+          <p>Academically, exploring frontier works in AI and Image Processing fields has always been my interests.</p>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
+      <div class="w-100">
+        <h2 class="mb-5">Awards &amp; Certifications</h2>
+        <ul class="fa-ul mb-0">
+        <li>
+            <i class="fa-li fa fa-trophy text-warning"></i>
+            Williams Huggins Summer Research Fellowship
+        </li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+            Winner of Microsoft Marco Challenge in “HopHacks Fall 2019”
+            </li>
+          <li>
+            <i class="fa-li fa fa-trophy text-warning"></i>
+            10<sup>st</sup>
+            Place - “Hackinit() Summer 2018” Hackathon
+          </li>
+            <li>
+            <i class="fa-li fa fa-trophy text-warning"></i>
+            American Invitational Mathematics Examination (AIME) qualifier
+            </li>
+            <li>
+            <i class="fa-li fa fa-trophy text-warning"></i>
+            Dean's List at Johns Hopkins University: Fall 2018, Spring 2019, Fall 2019
+            </li>
+            <li>
+            <i class="fa-li fa fa-trophy text-warning"></i>
+            Coursera Deep Learning Specialization
+            </li>
+            <li>
+            <i class="fa-li fa fa-medal text-warning"></i>
+            Art History, Math, Science, Social Science medals in United States Academic Decathlon
+            </li>
+        </ul>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="{{ url_for('static', filename='vendor/jquery/jquery.min.js') }}"></script>
+
+  <script src="{{ url_for('static', filename='vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="{{ url_for('static', filename='vendor/jquery-easing/jquery.easing.min.js') }}"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="{{ url_for('static', filename='scripts/resume.min.js') }}"></script>
+
+
+</body>
+
+</html>

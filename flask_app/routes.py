@@ -11,7 +11,7 @@ from flask_app.forms import PostForm
 def index():
     db.create_all()
     posts = Post.query.all()
-    return render_template("index.html", posts=posts)
+    return render_template("index1.html")
 
 
 @app.route("/about")
